@@ -1,0 +1,5 @@
+Lapicera,120.5,30
+Cuaderno,350.75,20
+Goma de borrar,80.0,50
+Mouse,123345.0,10
+Estuche,3453.0,32
