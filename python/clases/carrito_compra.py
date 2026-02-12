@@ -17,7 +17,7 @@ class ProductoDescuento(Producto):
     return precio_base * (1 - self.porcentaje_descuento / 100)
 
 class Cart:
-  def __init__(self, items: list = [])-> None:
+  def __init__(self, items=None)-> None:
     self.items = items if items is not None else []
   
   def agregar_producto(self, producto: Producto)-> None:
